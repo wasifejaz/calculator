@@ -1,0 +1,37 @@
+function trad1(t1,t2){
+return t1*t2
+}
+
+
+function trad2(t3,t4){
+return t3+t4 
+}
+
+function trad3(t5,t6){
+return t5-t6
+}
+
+function trad4(t7,t8){
+return t7/t8
+}
+
+console.log("1 Multiplication")
+console.log("2 Divide")
+console.log("3 ADD")
+console.log("4 Subtract")
+//let a = prompt("Which operation do you want")
+switch (3) {
+    case 1:
+    console.log(trad1(10,20))
+    break;
+    case 2:
+    console.log(trad2(1,20))
+    break;
+
+    case 3:
+    console.log(trad3(18,20))
+    break;
+    case 4:
+    console.log(trad4(60,20))
+    break;
+}
