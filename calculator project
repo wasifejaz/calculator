@@ -16,9 +16,9 @@ return t7/t8
 }
 
 console.log("1 Multiplication")
-console.log("2 Divide")
-console.log("3 ADD")
-console.log("4 Subtract")
+console.log("2 Add")
+console.log("3 Subtract")
+console.log("4 Divide")
 //let a = prompt("Which operation do you want")
 switch (3) {
     case 1:
